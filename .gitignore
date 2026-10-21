@@ -1,0 +1,24 @@
+# Full-size camera originals — the site uses the web copies in assets/photos/
+assets/church/
+assets/newDivineRORPhilly/
+
+# Video (too large for GitHub; not used by the site)
+*.mp4
+*.mov
+
+# Local tooling
+.codex_tools/
+.skill-staging/
+.claude/
+.vscode/
+
+# Blender auto-backups and Python caches
+*.blend1
+__pycache__/
+*.pyc
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+/3d

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="snap">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo gallery from Divine Rock of Refuge — clothing drives, shoe drives, and youth tournaments with our partner churches.">
+    <meta name="theme-color" content="#050807">
+    <link rel="icon" href="assets/brand/emblem-96.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gallery — Divine Rock of Refuge</title>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="index.html">
+                <img class="brand-mark" src="assets/brand/emblem-96.png" alt="" width="38" height="38">
+                <span class="brand-text">
+                    <span class="brand-name">Divine Rock of Refuge</span>
+                    <span class="brand-sub">Philadelphia</span>
+                </span>
+            </a>
+
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+                <span></span>
+            </button>
+
+            <ul class="nav" id="primary-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+                <li><a href="information.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- One full screen: a slim title/tab bar, and a stage that fills the rest -->
+        <section class="section panel panel--fill">
+            <div class="wrap wrap--wide Gallery">
+
+                <div class="gallery-bar">
+                    <div class="gallery-head">
+                        <p class="eyebrow">Gallery</p>
+                        <h1 class="section-title">Our work in photos</h1>
+                    </div>
+
+                    <div class="gallery-tabs">
+                        <button class="gallery-tab gallery-tab--active" data-gallery="0">Church</button>
+                        <button class="gallery-tab" data-gallery="1">Divine ROR</button>
+                    </div>
+                </div>
+
+                <div class="slide slide--active">
+                    <div class="slide-stage">
+                        <img class="slide-photo" alt="Church gallery photo">
+                        <button class="slide-btn slide-btn--prev" aria-label="Previous photo">&#8249;</button>
+                        <button class="slide-btn slide-btn--next" aria-label="Next photo">&#8250;</button>
+                        <div class="slide-counter"></div>
+                        <a class="slide-full" target="_blank" rel="noopener">View full size</a>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slide-stage">
+                        <img class="slide-photo" alt="Divine ROR gallery photo">
+                        <button class="slide-btn slide-btn--prev" aria-label="Previous photo">&#8249;</button>
+                        <button class="slide-btn slide-btn--next" aria-label="Next photo">&#8250;</button>
+                        <div class="slide-counter"></div>
+                        <a class="slide-full" target="_blank" rel="noopener">View full size</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand"><img src="assets/brand/emblem-96.png" alt="" width="34" height="34"><span class="footer-brand-name">Divine Rock of Refuge</span></div>
+                    <p class="footer-blurb">
+                        Partnering with churches in Nigeria and the Philadelphia area to run
+                        clothing drives, shoe drives, and youth sporting tournaments.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="information.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:olorunfe@hotmail.com">Email</a></li>
+                        <li><a href="tel:+12159842270">Phone</a></li>
+                        <li><a href="information.html">Social Media Coming Soon</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; <span id="year">2026</span> Divine Rock of Refuge. All rights reserved.</span>
+                <span>Philadelphia, PA</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="base.js"></script>
+</body>
+</html>
